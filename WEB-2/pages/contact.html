@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+ 
+  <title>Contact</title>
+  <link href="../style.css" rel="stylesheet" type="text/css" />
+</head>
+<!-- BACKGROUND INFO -->
+<style>
+  .black-section {
+    background-color: #000000;
+    height: 1500px;
+  }
+
+  .section-background-photo {
+    background-image: url("../images/backgroundfog.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+  }
+</style>
+
+<body>
+  <!-- HEADER INFO -->
+  <nav class="navbar">
+    <div class="brand-title">
+      <a href="../index.html">
+        <img src="../images/logo.png" alt="Your logo">
+      </a>
+    </div>
+    <a href="#" class="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="about.html">About Us </a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="team.html">Team</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+  </nav>
+  <script src="../script.js"></script>
+
+  <section class="black-section">
+    <section class="section-background-photo">
+      
+      
+      <form
+      action="https://formspree.io/f/xvonwqaw"
+      method="POST"
+    >
+      <label class="contact-us">
+        Your email:
+        <input type="email" name="email">
+      </label>
+      <label class="contact-us">
+        Your message:
+        <textarea name="message"></textarea>
+      </label>
+      <!-- your other form fields go here -->
+      <button type="submit">Send</button>
+    </form>
+    </section>
+
+
+</body>
+<footer class="footer">
+  <div class="float-container">
+    <img class="img" src="../images/mainlogo.png" alt="WAT.ai">
+    <div class="footer-text">
+      <p>contact@watai.ca</p>
+      <p>Located at 200 University,</p>
+      <p>University of Waterloo, ON</p>
+    </div>
+  </div>
+    <div class="footer-links">
+      <a href="../pages/about.html">ABOUT US</a>
+      <a href="../pages/projects.html">PROJECTS</a>
+      <a href="../pages/team.html">TEAM</a>
+      <a href="../pages/contact.html">CONTACT US</a>
+
+    </div>
+
+</footer>
+
+</html>
